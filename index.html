@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolate Brownie Recipe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="recipe-card">
+    <h1>Chocolate Brownie</h1>
+
+    <!-- Image Section -->
+    <div class="image-container">
+      <img src="cake.jpeg" alt="Chocolate Brownie">
+    </div>
+
+    <!-- Preparation Time and Serving Size -->
+    <div class="info">
+      <p><h4>Preparation time: 30 minutes | Serves: 4</h4></p>
+    </div>
+
+    <!-- Ingredients Section -->
+    <button class="toggle-btn" id="toggleIngredients">Show Ingredients</button>
+    <ul class="ingredients" id="ingredientsList">
+      <li>1 cup sugar</li>
+      <li>1/2 cup butter</li>
+      <li>2 eggs</li>
+      <li>1/3 cup cocoa powder</li>
+      <li>1/2 cup flour</li>
+      <li>1/4 tsp salt</li>
+      <li>1/4 tsp baking powder</li>
+    </ul>
+
+    <!-- Steps Section -->
+    <button class="toggle-btn" id="toggleSteps">Show Steps</button>
+    <ol class="steps" id="stepsList">
+      <li>Preheat oven to 350°F (175°C).</li>
+      <li>Mix sugar, butter, and eggs.</li>
+      <li>Add cocoa, flour, salt, and baking powder.</li>
+      <li>Pour into greased pan and bake for 25-30 minutes.</li>
+      <li>Let it cool and serve.</li>
+    </ol>
+
+    <!-- Start Cooking Button -->
+    <button id="startCooking">Start Cooking</button>
+
+    <!-- Timer Section (Bonus) -->
+    <div id="timerDisplay"><h4>Time: 00:00</h4></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
